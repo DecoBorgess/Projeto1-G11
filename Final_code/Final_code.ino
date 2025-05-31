@@ -20,15 +20,15 @@ struct ItemRFID {
   const char* uid;
 };
 
-ItemRFID itens[] = {
-  {"3", "048165F5270289"}, {"2", "04612404270289"}, {"5", "04D146F5270289"}, {"8", "04712304270289"},
+ItemRFID itens[] = {  
+  {"3", "048165F5270289"}, {"2", "04612404270289"}, {"6" , "048163F5270289"} , {"5", "04D146F5270289"},  {"8", "04712304270289"},
   {"Quarta-feira", "04A10604270289"}, {"Terca-feira", "04A10804270289"}, {"Quinta-feira", "045126F5270289"},
   {"Domingo", "04612504270289"}, {"Sabado", "04D145F5270289"},
   {"Livro", "04612704270289"}, {"Estojo", "04214004270289"}, {"Borracha", "04D147F5270289"},
   {"Lapis", "04E144F5270289"}, {"Bolsa", "04712204270289"},
   {"Peixe", "04612604270289"}, {"Gato", "04A10904270289"}, {"Cachorro", "04D148F5270289"},
   {"Cavalo", "048166F5270289"}, {"Tartaruga", "04E143F5270289"}
-};
+  };
 
 const char* dificuldades[] = {"Facil", "Intermed.", "Dificil"};
 const char* categorias[] = {"Objetos", "Numeros", "Animais", "Dias"};
@@ -119,7 +119,7 @@ void mostrarMenu() {
   lcd.print("Dif: ");
   lcd.print(dificuldades[indiceDificuldade]);
   lcd.setCursor(0, 1);
-  lcd.print("Categ: ");
+  lcd.print("Cat: ");
   lcd.print(categorias[indiceCategoria]);
 }
 
