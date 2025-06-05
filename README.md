@@ -88,11 +88,11 @@ Este projeto foi desenvolvido por um grupo de estudantes com o propósito de **u
 
 ## Autores do código
 
-- [Lucas Bayma]
-- [André Borges]
-- [Gabriel Pereira]
-- [Pedro David Baia]
-- Todos estudantes da CESAR School
+- Lucas Bayma
+- André Borges
+- Gabriel Pereira
+- Pedro David Baia
+- Todos estudantes da **CESAR School**
 
 ## Melhorias
 
